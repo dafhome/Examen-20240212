@@ -11,9 +11,9 @@ body{
 }
 .body-recibido{background-image: url(images/fondo-mano.avif);}
 label{
-    color:white;
-    text-shadow: 5px 5px 5px black;
-    background-color: rgba(0, 0, 0, 0.462);
+    /* color:white; */
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.267);
+    /* background-color: rgba(0, 0, 0, 0.462); */
     padding: 15px;
     border-radius: 5px;
 
