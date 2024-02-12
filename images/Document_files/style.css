@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header, footer{
+    padding: 0px 10px 0px 10px;
+}
+
+
+section{
+    margin: 20px;
+    padding: 0px 10px 0px 10px;
+}
+
+header{
+    margin: 10px;
+    position: sticky;
+    top: 0;
+
+}
+header,footer{
+    .logo{width: 130px;}
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 255, 0.623);
+    border-radius: 5px;
+}
+
+footer{
+
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+nav{
+    display: flex;
+    gap: 10px;
+}
+.button-nav{
+    text-decoration: none;
+    padding: 20px;
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+}
+.button-footer{
+    text-decoration: none;
+    padding: 20px;
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+}
+.secciones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#secciones1, #secciones2, #secciones3{
+    border-bottom-width: 10px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    
+}
+
+.img-background{
+    width: 50vw;
+    height: 30vw;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    border: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.669);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-background1{
+    background-image: url(images/edificio.jpg);
+}
+.img-background2{
+    background-image: url(images/oficinas1.jpg);
+}
+.img-background3{
+    background-image: url(images/hombre-negocios2.jpg);
+}
+.img-background4{
+    background-image: url(images/oficinas2.jpg);
+}
+.texto{
+    margin: 80px;
+    columns: 2;
+    width: 50vw;
+    font-size: 1.8vw;
+    hyphens: auto;
+    text-indent: 2.5vw;
+}
+.title-section{
+    font-size: 3vw;
+    text-shadow: 5px 5px 5px black;
+}
+#title-section3{
+    color: black;
+    text-shadow: 5px 5px 5px white;
+}
+
+

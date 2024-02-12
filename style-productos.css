@@ -1,0 +1,58 @@
+.section-prod{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 25px;
+    border-radius: 5px;
+    border-color: black;
+
+}
+.image-card{
+    background-color: black;
+    height: 20vw;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.652);
+}
+.text-card{
+    width: 100%;
+    font-size: 1.2vw;
+    hyphens: auto;
+    text-align: justify;
+}
+
+#image-card1{
+    background-image: url(images/robot-androide3.jpeg);
+}
+#image-card2{
+    background-image: url(images/robot-plantas3.webp);
+}
+#image-card3{
+    background-image: url(images/robot-transporte2.jpg);
+}
+@media screen and (orientation=portrait) {
+    .section-prod{
+        flex-direction: column;
+    }
+    .image-card{
+        background-color: black;
+        height: 40vw;
+        width: 80vw;
+    }
+    .text-card{
+        width: 100%;
+        font-size: 2.2vw;
+        hyphens: auto;
+        text-align: justify;
+    }
+}

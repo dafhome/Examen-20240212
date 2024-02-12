@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-contacto.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body class="body-contacto">
+    <header>
+        <img class="logo" src="images/logo-robot.png" alt="">
+        <nav>
+            <a class="button-nav" href="index.html">Inicio</a>
+            <a class="button-nav" href="productos.html">Productos</a>
+            <a class="button-nav" href="contacto.html">Contáctanos</a>
+        </nav>
+    </header>
+    <section>
+        <div class="container-form">
+            <form class="row g-3 m-4 p-5" action="recibido.html" method="get">
+                    <div class="col-md-6 my-4">
+                      <label for="inputname" class="form-label">Nombre *</label>
+                      <input type="text" name="name" class="form-control form-control-lg" id="inputname" placeholder="John" required>
+                    </div>
+                    <div class="col-md-6 my-4">
+                      <label for="last-name" class="form-label">Apellidos *</label>
+                      <input type="text" name="last-name" class="form-control form-control-lg" id="last-name" placeholder="Doe">
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <input type="text" name="mail" class="form-control form-control-lg" placeholder="usuario *" aria-label="Username" required>
+                        <span class="input-group-text">@</span>
+                        <input type="text" name="dominio" class="form-control form-control-lg" placeholder="mail.com *" aria-label="Server" required>
+                      </div>
+                      
+                    <div class="col-md-6">
+                      <label for="direccion" class="form-label">Dirección</label>
+                      <input type="text" name="direccion" class="form-control" id="direccion" placeholder="Calle donde vivo">
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <label for="number" class="form-label">Número</label>
+                        <input type="number" name="number" class="form-control" id="number" placeholder="Numero de mi Edificio">
+                      </div>
+                    <div class="col-md-3 col-6">
+                      <label for="piso" class="form-label">Piso y Puerta</label>
+                      <input type="text" name="piso" class="form-control" id="piso" placeholder="Piso, Escalera y Puerta">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="Ciudad" class="form-label">Ciudad</label>
+                      <input type="text" name="Ciudad" class="form-control" id="Ciudad">
+                    </div>
+                    <div class="col-md-4">
+                      <label for="Comunidad" class="form-label">Comunidad Autónoma</label>
+                      <select id="Comunidad" name="Comunidad" class="form-select">
+                        <option selected>Elige Provincia</option>
+                        <option value="Andalucía">Andalucía</option>
+                        <option value="Canarias">Canarias</option>
+                        <option value="Cantabria">Cantabria</option>
+                        <option value="Cataluña">Cataluña</option>
+                        <option value="Galicia">Galicia</option>
+                        <option value="Islas Baleares">Islas Baleares</option>
+                        <option value="La Rioja">La Rioja</option>
+                        <option value="Navarra">Navarra</option>
+                        <option value="País Vasco">País Vasco</option>
+                        <option value="Aragón">Aragón</option>
+                        <option value="Castilla-La Mancha">Castilla-La Mancha</option>
+                        <option value="Castilla y León">Castilla y León</option>
+                        <option value="Comunidad Valenciana">Comunidad Valenciana</option>
+                        <option value="Extremadura">Extremadura</option>
+                        <option value="Comunidad de Madrid">Comunidad de Madrid</option>
+                        <option value="Ceuta">Ceuta</option>
+                        <option value="Melilla">Melilla</option>
+                        <option value="Murcia">Murcia</option>
+                        <option value="Asturias">Asturias</option>
+                      </select>
+                    </div>
+                    <div class="col-md-2">
+                      <label for="CP" class="form-label">Zip</label>
+                      <input type="number" name="CP" class="form-control" id="CP">
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-text">Comentarios *</span>
+                        <textarea class="form-control" name="comentarios" aria-label="Comentarios" maxlength="250" placeholder="Aquí puedes indicarnos brevemente que es lo que nos quieres preguntar. Max. 250 caracteres." required></textarea>
+                      </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn w-100 p-3 btn-primary">Contactar</button>
+                    </div>
+                  
+
+
+            </form>
+        </div>
+    </section>
+    <footer>
+        <img class="logo" src="images/logo-robot.png" alt="">
+
+        
+
+    </footer>
+</body>
+
+</html>
